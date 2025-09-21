@@ -6,9 +6,14 @@ This repository contains hardware specifications and firmware dumps for the DNS 
 ⚠️ Disclaimer
 This device is an engineering sample. Its hardware and software are unstable, not finalized, and are intended for development and testing purposes only. Use this information at your own risk.
 
-Available Firmware Files: https://drive.google.com/drive/folders/1n0FV64SBxIvUxBhyOcANfHTxzBduREGI?dmr=1&ec=wgc-drive-hero-goto
+Available Firmware Files
+Firmware backup is located here: https://drive.google.com/drive/folders/1n0FV64SBxIvUxBhyOcANfHTxzBduREGI?dmr=1&ec=wgc-drive-hero-goto
+
+backup.img - Backup partition
 
 boot.img - Android boot partition
+
+cache.img - Cache partition
 
 kernel.img - Linux kernel image
 
@@ -21,6 +26,10 @@ misc.img - Miscellaneous system partition
 parameter.txt - Device parameters and partition table
 
 recovery.img - Android recovery partition
+
+system.img - Android system partition
+
+userdata.img - User data partition
 
 📋 Hardware Specifications
 SoC: Rockchip RK3066 (Dual-Core Cortex-A9 @ 1.6GHz, Mali-400 MP4)
